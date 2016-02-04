@@ -1,0 +1,8 @@
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\bin\Debug\MT.Orm.DBAttribute.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\bin\Debug\MT.Orm.DBAttribute.pdb
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\obj\Debug\MT.Orm.DBAttribute.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\obj\Debug\MT.Orm.DBAttribute.pdb
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\bin\Debug\MT.Orm.DBAttribute.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\bin\Debug\MT.Orm.DBAttribute.pdb
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\obj\Debug\MT.Orm.DBAttribute.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Orm.DBAttribute\obj\Debug\MT.Orm.DBAttribute.pdb

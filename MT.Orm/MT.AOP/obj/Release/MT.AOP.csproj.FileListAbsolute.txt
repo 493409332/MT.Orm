@@ -1,0 +1,4 @@
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\bin\Release\MT.AOP.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\bin\Release\MT.AOP.pdb
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\obj\Release\MT.AOP.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\obj\Release\MT.AOP.pdb

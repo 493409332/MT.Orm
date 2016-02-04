@@ -1,0 +1,6 @@
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\bin\Release\MT.Common.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\bin\Release\MT.Common.pdb
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\bin\Release\Newtonsoft.Json.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\bin\Release\Newtonsoft.Json.xml
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\obj\Release\MT.Common.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Common\obj\Release\MT.Common.pdb

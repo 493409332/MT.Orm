@@ -1,0 +1,10 @@
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Newtonsoft.Json.Fakes.xml
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Newtonsoft.Json.Fakes.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Newtonsoft.Json.Fakes.pdb
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Microsoft.QualityTools.Testing.Fakes.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Newtonsoft.Json.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\Newtonsoft.Json.xml
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\o\f.csprojResolveAssemblyReference.cache
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\o\Newtonsoft.Json.Fakes.dll
+F:\快盘1\MTORM\MT.Orm\MT.Orm\MT.Common\obj\Debug\Fakes\nj\o\Newtonsoft.Json.Fakes.pdb

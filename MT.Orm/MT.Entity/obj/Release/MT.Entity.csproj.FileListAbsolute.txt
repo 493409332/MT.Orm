@@ -1,0 +1,9 @@
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Entity.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Entity.pdb
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Orm.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Common.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Orm.pdb
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\bin\Release\MT.Common.pdb
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\obj\Release\MT.Entity.csprojResolveAssemblyReference.cache
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\obj\Release\MT.Entity.dll
+F:\快盘1\aaaaaaa\MT.Orm\MT.Orm\MT.Entity\obj\Release\MT.Entity.pdb

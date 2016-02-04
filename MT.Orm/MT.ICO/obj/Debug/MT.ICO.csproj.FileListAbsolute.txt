@@ -1,0 +1,16 @@
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\MT.ICO.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\MT.ICO.pdb
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\Microsoft.Practices.Unity.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\MT.AOP.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\System.Web.Http.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\System.Net.Http.Formatting.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\Newtonsoft.Json.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\MT.AOP.pdb
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\Microsoft.Practices.Unity.xml
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\System.Web.Http.xml
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\System.Net.Http.Formatting.xml
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\obj\Debug\MT.ICO.csprojResolveAssemblyReference.cache
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\obj\Debug\MT.ICO.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.ICO\obj\Debug\MT.ICO.pdb

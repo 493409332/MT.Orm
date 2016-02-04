@@ -1,0 +1,4 @@
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\bin\Debug\MT.AOP.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\bin\Debug\MT.AOP.pdb
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\obj\Debug\MT.AOP.dll
+F:\快盘\SVN\MTORM\MT.Orm\MT.Orm\MT.AOP\obj\Debug\MT.AOP.pdb

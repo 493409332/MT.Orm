@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB101426-0CC8-4E50-AA6A-24FC0D00D52F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MT.Common</RootNamespace>
+    <AssemblyName>MT.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Utility\Attribute\DescriptionAttribute.cs" />
+    <Compile Include="Utility\Extension\DtTolistExtension.cs" />
+    <Compile Include="Utility\Extension\CacheExtension.cs" />
+    <Compile Include="Utility\CacheExt\DataCache.cs" />
+    <Compile Include="Utility\CacheExt\DefaultCacheStrategy.cs" />
+    <Compile Include="Utility\CacheExt\ICacheStrategy.cs" />
+    <Compile Include="Utility\CacheExt\MyCache.cs" />
+    <Compile Include="Utility\Extension\MyCacheExtension.cs" />
+    <Compile Include="Utility\CacheExt\OrCache.cs" />
+    <Compile Include="Utility\Extension\ArrayExtension.cs" />
+    <Compile Include="Utility\Extension\IEnumerableExtension.cs" />
+    <Compile Include="Utility\Config\ConfigHelper.cs" />
+    <Compile Include="Utility\Config\FileConfig.cs" />
+    <Compile Include="Utility\Config\Regin.cs" />
+    <Compile Include="Utility\Config\ResponseFileTypeUtilities.cs" />
+    <Compile Include="Utility\ConvertExt\CastAnonymous.cs" />
+    <Compile Include="Utility\Extension\DataTableToListExt.cs" />
+    <Compile Include="Utility\ConvertExt\PublicConvert.cs" />
+    <Compile Include="Utility\ConvertExt\TextToBase64String.cs" />
+    <Compile Include="Utility\Extension\CookieExtension.cs" />
+    <Compile Include="Utility\Extension\DateTimeExtension.cs" />
+    <Compile Include="Utility\Extension\DateTimeParser.cs" />
+    <Compile Include="Utility\EncryptionDecryption\DEncrypt.cs" />
+    <Compile Include="Utility\EncryptionDecryption\DESEncrypt.cs" />
+    <Compile Include="Utility\EncryptionDecryption\Encryption.cs" />
+    <Compile Include="Utility\EncryptionDecryption\EncryptionHelper.cs" />
+    <Compile Include="Utility\EncryptionDecryption\EncryptionMD5.cs" />
+    <Compile Include="Utility\EncryptionDecryption\HashEncode.cs" />
+    <Compile Include="Utility\EncryptionDecryption\RSACryption.cs" />
+    <Compile Include="Utility\EncryptionDecryption\SecurityUtil.cs" />
+    <Compile Include="Utility\Extension\JsonExtension.cs" />
+    <Compile Include="Utility\Extension\JSONhelper.cs" />
+    <Compile Include="Utility\ReflectorExt\PropertyGetterSetterFactory.cs" />
+    <Compile Include="Utility\Extension\StringHelper.cs" />
+    <Compile Include="Utility\Extension\StringPlus.cs" />
+    <Compile Include="Utility\IFileStorage.cs" />
+    <Compile Include="Utility\INIFile.cs" />
+    <Compile Include="Utility\PhysicsFileStorage.cs" />
+    <Compile Include="Utility\Spell.cs" />
+    <Compile Include="Utility\SpellOptions.cs" />
+    <Compile Include="Utility\ValidateExt\PageValidate.cs" />
+    <Compile Include="Utility\Web\FormParas.cs" />
+    <Compile Include="Utility\ComEnum\Language.cs" />
+    <Compile Include="Utility\LinqExt\LinqOrderBy.cs" />
+    <Compile Include="Utility\LinqExt\LinqWhere.cs" />
+    <Compile Include="Utility\Extension\IComparableExtension.cs" />
+    <Compile Include="Utility\Extension\ObjectExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\Extension\ReferenceTypeExtension.cs" />
+    <Compile Include="Utility\ReflectorExt\ILFieldAccessor.cs" />
+    <Compile Include="Utility\ReflectorExt\ILMethodInvoker.cs" />
+    <Compile Include="Utility\ReflectorExt\ILPropertyAccessor.cs" />
+    <Compile Include="Utility\ReflectorExt\ILReflectorFactory.cs" />
+    <Compile Include="Utility\ReflectorExt\IMemberAccessor.cs" />
+    <Compile Include="Utility\ReflectorExt\IMethodInvoker.cs" />
+    <Compile Include="Utility\ReflectorExt\IReflectorFactory.cs" />
+    <Compile Include="Utility\ReflectorExt\ReflectorCache.cs" />
+    <Compile Include="Utility\Extension\StringExtension.cs" />
+    <Compile Include="Utility\FileUtil.cs" />
+    <Compile Include="Utility\ValidateExt\FormatValidate.cs" />
+    <Compile Include="Utility\ValidateExt\IntValidationHelper.cs" />
+    <Compile Include="Utility\ValidateExt\StringValidationHelper.cs" />
+    <Compile Include="Utility\ValidateExt\TipInfo.cs" />
+    <Compile Include="Utility\ValidateExt\Validation.cs" />
+    <Compile Include="Utility\ValidateExt\ValidationHelper.cs" />
+    <Compile Include="Utility\ValidateImage\ArithmeticImageGenerator.cs" />
+    <Compile Include="Utility\ValidateImage\DefaultValidateImageGenerator.cs" />
+    <Compile Include="Utility\ImageUtil.cs" />
+    <Compile Include="Utility\ValidateImage\IValidateImageGenerator.cs" />
+    <Compile Include="Utility\ValidateImage\ValidateImageHelper.cs" />
+    <Compile Include="Utility\ValidateImage\VerifyCodeWave.cs" />
+    <Compile Include="Utility\ValidateImage\WaveValidateImageGenerator.cs" />
+    <Compile Include="Utility\Extension\ValueTypeExtension.cs" />
+    <Compile Include="Utility\Web\HttpProc.cs" />
+    <Compile Include="Utility\Web\UploadResult.cs" />
+    <Compile Include="Utility\Web\WebUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utility\WordTool\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

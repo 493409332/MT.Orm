@@ -1,0 +1,35 @@
+﻿create table T_Department 
+(
+   ID                   integer                        not null default autoincrement,
+   Name                 char(50)                       null,
+   Code                 char(50)                       null,
+   Address              char(100)                      null,
+   Department_Type      integer                        null,
+   CountyId             integer                        null,
+   TownInfoId           integer                        null,
+   constraint PK_T_DEPARTMENT primary key clustered (ID)
+);
+
+comment on table T_Department is 
+'部门表';
+
+comment on column T_Department.ID is 
+'部门ID';
+
+comment on column T_Department.Name is 
+'部门名称';
+
+comment on column T_Department.Code is 
+'部门代码';
+
+comment on column T_Department.Address is 
+'部门地址';
+
+comment on column T_Department.Department_Type is 
+'部门类型 1镇2县';
+
+comment on column T_Department.CountyId is 
+'县ID';
+
+comment on column T_Department.TownInfoId is 
+'镇ID';

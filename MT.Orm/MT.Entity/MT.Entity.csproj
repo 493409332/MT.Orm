@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E0ACC77-51C5-4F6C-83BA-FD25A4663A3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MT.Entity</RootNamespace>
+    <AssemblyName>MT.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Admin\ConfigModel.cs" />
+    <Compile Include="Admin\LiveInformation.cs" />
+    <Compile Include="Admin\Temp\T_UserInfoTem.cs" />
+    <Compile Include="Admin\Temp\T_UserTem.cs" />
+    <Compile Include="Admin\T_Button.cs" />
+    <Compile Include="Admin\T_Department.cs" />
+    <Compile Include="Admin\T_NavButtons.cs" />
+    <Compile Include="Admin\T_Navigation.cs" />
+    <Compile Include="Admin\T_Role.cs" />
+    <Compile Include="Admin\T_RoleNavBtns.cs" />
+    <Compile Include="Admin\T_Roles_Departments.cs" />
+    <Compile Include="Admin\T_User.cs" />
+    <Compile Include="Admin\T_UserInfo.cs" />
+    <Compile Include="Admin\T_UserRoles.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="EntityBase.cs" />
+    <Compile Include="EntityTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MT.Orm\MT.Orm.csproj">
+      <Project>{45c14b6b-20eb-4652-8670-30c7c5d851bc}</Project>
+      <Name>MT.Orm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\Mapping\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Newtonsoft.Json.Ninject</name>
+    </assembly>
+    <members>
+        <member name="T:Newtonsoft.Json.Ninject.NinjectCamelCasePropertyNamesContractResolver">
+            <summary>
+            Ninject camelCasePropertyNames contract resolver
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Ninject.NinjectCamelCasePropertyNamesContractResolver.kernel">
+            <summary>
+            The <see cref="T:Ninject.IKernel"/>.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Ninject.NinjectCamelCasePropertyNamesContractResolver.#ctor(Ninject.IKernel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.Ninject.NinjectCamelCasePropertyNamesContractResolver"/> class.
+            </summary>
+            <param name="kernel">The <see cref="T:Ninject.IKernel"/>.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Ninject.NinjectCamelCasePropertyNamesContractResolver.CreateObjectContract(System.Type)">
+            <summary>
+            Resolve contract by Ninject kernel.
+            </summary>
+            <param name="objectType">The contract type.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Serialization.JsonObjectContract"/>.</returns>
+        </member>
+        <member name="T:Newtonsoft.Json.Ninject.NinjectContractResolver">
+            <summary>
+            Ninject contract resolver
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Ninject.NinjectContractResolver.kernel">
+            <summary>
+            The <see cref="T:Ninject.IKernel"/>.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Ninject.NinjectContractResolver.#ctor(Ninject.IKernel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.Ninject.NinjectContractResolver"/> class.
+            </summary>
+            <param name="kernel">The <see cref="T:Ninject.IKernel"/>.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Ninject.NinjectContractResolver.CreateObjectContract(System.Type)">
+            <summary>
+            Resolve contract by Ninject kernel.
+            </summary>
+            <param name="objectType">The contract type.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Serialization.JsonObjectContract"/>.</returns>
+        </member>
+    </members>
+</doc>
